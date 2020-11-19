@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { MatCardModule } from '@angular/material/card';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserModule } from '@angular/platform-browser';
@@ -19,6 +20,7 @@ import { LiveListComponent } from './views/home/live-list/live-list.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatTabsModule,
+    MatCardModule,
     MatButtonModule,
     MatToolbarModule,
   ],
